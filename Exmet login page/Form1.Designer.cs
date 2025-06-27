@@ -33,9 +33,9 @@
             close = new PictureBox();
             logo = new PictureBox();
             username = new Label();
-            tbname = new TextBox();
+            txtEmail = new TextBox();
             password = new Label();
-            tbpassword = new TextBox();
+            txtPassword = new TextBox();
             checkBox1 = new CheckBox();
             btnlogin = new Button();
             ((System.ComponentModel.ISupportInitialize)background).BeginInit();
@@ -100,12 +100,12 @@
             username.TabIndex = 4;
             username.Text = "Username:";
             // 
-            // tbname
+            // txtEmail
             // 
-            tbname.Location = new Point(50, 303);
-            tbname.Name = "tbname";
-            tbname.Size = new Size(275, 27);
-            tbname.TabIndex = 5;
+            txtEmail.Location = new Point(50, 303);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(275, 27);
+            txtEmail.TabIndex = 5;
             // 
             // password
             // 
@@ -118,12 +118,12 @@
             password.TabIndex = 6;
             password.Text = "Password:";
             // 
-            // tbpassword
+            // txtPassword
             // 
-            tbpassword.Location = new Point(50, 386);
-            tbpassword.Name = "tbpassword";
-            tbpassword.Size = new Size(275, 27);
-            tbpassword.TabIndex = 7;
+            txtPassword.Location = new Point(50, 386);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(275, 27);
+            txtPassword.TabIndex = 7;
             // 
             // checkBox1
             // 
@@ -147,6 +147,7 @@
             btnlogin.TabIndex = 9;
             btnlogin.Text = "Login";
             btnlogin.UseVisualStyleBackColor = false;
+            btnlogin.Click += btnlogin_Click;
             // 
             // Form1
             // 
@@ -156,9 +157,9 @@
             ClientSize = new Size(1275, 724);
             Controls.Add(btnlogin);
             Controls.Add(checkBox1);
-            Controls.Add(tbpassword);
+            Controls.Add(txtPassword);
             Controls.Add(password);
-            Controls.Add(tbname);
+            Controls.Add(txtEmail);
             Controls.Add(username);
             Controls.Add(logo);
             Controls.Add(close);
@@ -183,9 +184,9 @@
         private PictureBox close;
         private PictureBox logo;
         private Label username;
-        private TextBox tbname;
+        private TextBox txtEmail;
         private Label password;
-        private TextBox tbpassword;
+        private TextBox txtPassword;
         private CheckBox checkBox1;
         private Button btnlogin;
     }
