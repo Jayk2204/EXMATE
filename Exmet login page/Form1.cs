@@ -19,7 +19,7 @@ namespace Exmet_login_page
 
         private void close_Click(object sender, EventArgs e)
         {
-          
+            Application.Exit();
         }
 
         private void Form1_Load(object sender, EventArgs e)
