@@ -54,5 +54,20 @@ namespace Exmet_login_page
                 }
             }
         }
+
+        private void logo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void password_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBoximage_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

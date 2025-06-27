@@ -63,6 +63,16 @@ namespace Exmet_login_page.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _852267_user_512x512 {
+            get {
+                object obj = ResourceManager.GetObject("852267_user_512x512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap close_icon_30 {
             get {
                 object obj = ResourceManager.GetObject("close-icon-30", resourceCulture);
@@ -96,6 +106,26 @@ namespace Exmet_login_page.Properties {
         internal static System.Drawing.Bitmap OIP {
             get {
                 object obj = ResourceManager.GetObject("OIP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OIP__2_ {
+            get {
+                object obj = ResourceManager.GetObject("OIP (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2025_06_27_at_15_23_55_790459e3 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2025-06-27 at 15.23.55_790459e3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
