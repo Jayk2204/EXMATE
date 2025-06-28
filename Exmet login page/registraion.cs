@@ -89,5 +89,10 @@ namespace Exmet_login_page
         {
             MessageBox.Show("You are in Signup Page:-");
         }
+
+        private void close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

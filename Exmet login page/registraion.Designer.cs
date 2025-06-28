@@ -295,6 +295,7 @@
             close.SizeMode = PictureBoxSizeMode.Zoom;
             close.TabIndex = 14;
             close.TabStop = false;
+            close.Click += close_Click;
             // 
             // registraion
             // 
