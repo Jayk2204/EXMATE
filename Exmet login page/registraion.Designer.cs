@@ -66,7 +66,7 @@
             pictureBox1outer.Image = Properties.Resources.WhatsApp_Image_2025_06_27_at_15_23_55_790459e3;
             pictureBox1outer.Location = new Point(518, -1);
             pictureBox1outer.Name = "pictureBox1outer";
-            pictureBox1outer.Size = new Size(761, 770);
+            pictureBox1outer.Size = new Size(522, 769);
             pictureBox1outer.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1outer.TabIndex = 0;
             pictureBox1outer.TabStop = false;
@@ -94,7 +94,7 @@
             panel1in.Controls.Add(pictureBox2in);
             panel1in.Location = new Point(104, 74);
             panel1in.Name = "panel1in";
-            panel1in.Size = new Size(1080, 620);
+            panel1in.Size = new Size(936, 620);
             panel1in.TabIndex = 1;
             // 
             // checkBoxshowpass
@@ -279,7 +279,7 @@
             pictureBox2in.Image = Properties.Resources.WhatsApp_Image_2025_06_27_at_15_23_55_790459e3;
             pictureBox2in.Location = new Point(414, -1);
             pictureBox2in.Name = "pictureBox2in";
-            pictureBox2in.Size = new Size(666, 620);
+            pictureBox2in.Size = new Size(522, 620);
             pictureBox2in.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2in.TabIndex = 0;
             pictureBox2in.TabStop = false;
@@ -289,7 +289,7 @@
             close.BackColor = Color.MidnightBlue;
             close.Cursor = Cursors.Hand;
             close.Image = (Image)resources.GetObject("close.Image");
-            close.Location = new Point(1246, -1);
+            close.Location = new Point(1007, -1);
             close.Name = "close";
             close.Size = new Size(33, 29);
             close.SizeMode = PictureBoxSizeMode.Zoom;
@@ -302,7 +302,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1278, 768);
+            ClientSize = new Size(1039, 768);
             Controls.Add(close);
             Controls.Add(panel1in);
             Controls.Add(pictureBox1outer);

@@ -101,12 +101,14 @@ namespace Exmet_login_page
         private void btnsingup_Click(object sender, EventArgs e)
         {
             registraion registraion = new registraion();
-            registraion.ShowDialog();
+            registraion.Show();
+            this.Hide();
         }
 
         private void btnlogin1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("You are in Login Page:-");
-        
+
+        }
     }
 }

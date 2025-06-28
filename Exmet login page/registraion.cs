@@ -81,7 +81,8 @@ namespace Exmet_login_page
         private void btnlogin1_Click(object sender, EventArgs e)
         {
             Form1 login = new Form1();
-            login.ShowDialog();
+            login.Show();
+            this.Hide();
         }
 
         private void btnsingup_Click(object sender, EventArgs e)
