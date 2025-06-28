@@ -197,7 +197,7 @@
             // pictureBoxpass
             // 
             pictureBoxpass.Image = (Image)resources.GetObject("pictureBoxpass.Image");
-            pictureBoxpass.Location = new Point(35, 396);
+            pictureBoxpass.Location = new Point(35, 397);
             pictureBoxpass.Name = "pictureBoxpass";
             pictureBoxpass.Size = new Size(17, 19);
             pictureBoxpass.SizeMode = PictureBoxSizeMode.Zoom;
@@ -209,7 +209,7 @@
             password.AutoSize = true;
             password.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             password.ForeColor = Color.Black;
-            password.Location = new Point(58, 395);
+            password.Location = new Point(58, 396);
             password.Name = "password";
             password.Size = new Size(82, 20);
             password.TabIndex = 24;
