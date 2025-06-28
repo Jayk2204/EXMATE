@@ -33,7 +33,7 @@
             panel1 = new Panel();
             btnsingup = new Button();
             checkBox1 = new CheckBox();
-            buttoncreateacc = new Button();
+            btnlogin = new Button();
             btnlogin1 = new Button();
             txtPassword = new TextBox();
             password = new Label();
@@ -67,7 +67,7 @@
             // 
             panel1.Controls.Add(btnsingup);
             panel1.Controls.Add(checkBox1);
-            panel1.Controls.Add(buttoncreateacc);
+            panel1.Controls.Add(btnlogin);
             panel1.Controls.Add(btnlogin1);
             panel1.Controls.Add(txtPassword);
             panel1.Controls.Add(password);
@@ -95,6 +95,7 @@
             btnsingup.TabIndex = 19;
             btnsingup.Text = "Singup";
             btnsingup.UseVisualStyleBackColor = false;
+            btnsingup.Click += btnsingup_Click;
             // 
             // checkBox1
             // 
@@ -106,18 +107,19 @@
             checkBox1.Text = "Show Password";
             checkBox1.UseVisualStyleBackColor = true;
             // 
-            // buttoncreateacc
+            // btnlogin
             // 
-            buttoncreateacc.BackColor = Color.MidnightBlue;
-            buttoncreateacc.Cursor = Cursors.Hand;
-            buttoncreateacc.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttoncreateacc.ForeColor = SystemColors.ButtonHighlight;
-            buttoncreateacc.Location = new Point(647, 471);
-            buttoncreateacc.Name = "buttoncreateacc";
-            buttoncreateacc.Size = new Size(340, 40);
-            buttoncreateacc.TabIndex = 17;
-            buttoncreateacc.Text = "Get Started";
-            buttoncreateacc.UseVisualStyleBackColor = false;
+            btnlogin.BackColor = Color.MidnightBlue;
+            btnlogin.Cursor = Cursors.Hand;
+            btnlogin.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnlogin.ForeColor = SystemColors.ButtonHighlight;
+            btnlogin.Location = new Point(647, 471);
+            btnlogin.Name = "btnlogin";
+            btnlogin.Size = new Size(340, 40);
+            btnlogin.TabIndex = 17;
+            btnlogin.Text = "Get Started";
+            btnlogin.UseVisualStyleBackColor = false;
+            btnlogin.Click += buttoncreateacc_Click;
             // 
             // btnlogin1
             // 
@@ -132,6 +134,7 @@
             btnlogin1.TabIndex = 16;
             btnlogin1.Text = "Login";
             btnlogin1.UseVisualStyleBackColor = false;
+            btnlogin1.Click += btnlogin1_Click;
             // 
             // txtPassword
             // 
@@ -220,6 +223,7 @@
             close.SizeMode = PictureBoxSizeMode.Zoom;
             close.TabIndex = 13;
             close.TabStop = false;
+            close.Click += close_Click_1;
             // 
             // Form1
             // 
@@ -262,7 +266,7 @@
         private Label password;
         private TextBox txtPassword;
         private Button btnlogin1;
-        private Button buttoncreateacc;
+        private Button btnlogin;
         private CheckBox checkBox1;
         private Button btnsingup;
         private PictureBox close;
