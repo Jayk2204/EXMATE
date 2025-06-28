@@ -58,7 +58,7 @@
             pictureBox1.Image = Properties.Resources.WhatsApp_Image_2025_06_27_at_15_23_55_790459e3;
             pictureBox1.Location = new Point(-2, -1);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(522, 769);
+            pictureBox1.Size = new Size(639, 769);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -89,9 +89,9 @@
             btnsingup.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnsingup.ForeColor = SystemColors.ButtonHighlight;
             btnsingup.ImageAlign = ContentAlignment.TopLeft;
-            btnsingup.Location = new Point(454, 293);
+            btnsingup.Location = new Point(571, 148);
             btnsingup.Name = "btnsingup";
-            btnsingup.Size = new Size(138, 38);
+            btnsingup.Size = new Size(140, 38);
             btnsingup.TabIndex = 19;
             btnsingup.Text = "Singup";
             btnsingup.UseVisualStyleBackColor = false;
@@ -100,7 +100,7 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(855, 420);
+            checkBox1.Location = new Point(906, 430);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(132, 24);
             checkBox1.TabIndex = 18;
@@ -113,7 +113,7 @@
             btnlogin.Cursor = Cursors.Hand;
             btnlogin.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnlogin.ForeColor = SystemColors.ButtonHighlight;
-            btnlogin.Location = new Point(647, 471);
+            btnlogin.Location = new Point(698, 476);
             btnlogin.Name = "btnlogin";
             btnlogin.Size = new Size(340, 40);
             btnlogin.TabIndex = 17;
@@ -128,7 +128,7 @@
             btnlogin1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnlogin1.ForeColor = Color.Blue;
             btnlogin1.ImageAlign = ContentAlignment.TopLeft;
-            btnlogin1.Location = new Point(318, 261);
+            btnlogin1.Location = new Point(434, 111);
             btnlogin1.Name = "btnlogin1";
             btnlogin1.Size = new Size(136, 33);
             btnlogin1.TabIndex = 16;
@@ -138,7 +138,7 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(647, 377);
+            txtPassword.Location = new Point(698, 387);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(340, 27);
             txtPassword.TabIndex = 15;
@@ -148,7 +148,7 @@
             password.AutoSize = true;
             password.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             password.ForeColor = Color.Black;
-            password.Location = new Point(665, 354);
+            password.Location = new Point(723, 354);
             password.Name = "password";
             password.Size = new Size(82, 20);
             password.TabIndex = 14;
@@ -157,7 +157,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(647, 355);
+            pictureBox2.Location = new Point(698, 352);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(17, 19);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -166,7 +166,7 @@
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(647, 293);
+            txtEmail.Location = new Point(698, 313);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(340, 27);
             txtEmail.TabIndex = 12;
@@ -174,7 +174,7 @@
             // pictureBoxuser
             // 
             pictureBoxuser.Image = Properties.Resources._852267_user_512x512;
-            pictureBoxuser.Location = new Point(647, 268);
+            pictureBoxuser.Location = new Point(700, 282);
             pictureBoxuser.Name = "pictureBoxuser";
             pictureBoxuser.Size = new Size(17, 19);
             pictureBoxuser.SizeMode = PictureBoxSizeMode.Zoom;
@@ -186,7 +186,7 @@
             username.AutoSize = true;
             username.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             username.ForeColor = Color.Black;
-            username.Location = new Point(661, 267);
+            username.Location = new Point(723, 281);
             username.Name = "username";
             username.Size = new Size(86, 20);
             username.TabIndex = 5;
@@ -195,7 +195,7 @@
             // pictureBoxlogo
             // 
             pictureBoxlogo.Image = (Image)resources.GetObject("pictureBoxlogo.Image");
-            pictureBoxlogo.Location = new Point(759, 106);
+            pictureBoxlogo.Location = new Point(800, 111);
             pictureBoxlogo.Name = "pictureBoxlogo";
             pictureBoxlogo.Size = new Size(117, 116);
             pictureBoxlogo.SizeMode = PictureBoxSizeMode.Zoom;
@@ -207,7 +207,7 @@
             pictureBoximg2.Image = Properties.Resources.WhatsApp_Image_2025_06_27_at_15_23_55_790459e3;
             pictureBoximg2.Location = new Point(0, 0);
             pictureBoximg2.Name = "pictureBoximg2";
-            pictureBoximg2.Size = new Size(454, 620);
+            pictureBoximg2.Size = new Size(571, 620);
             pictureBoximg2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoximg2.TabIndex = 0;
             pictureBoximg2.TabStop = false;
