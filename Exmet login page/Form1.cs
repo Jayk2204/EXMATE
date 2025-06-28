@@ -107,12 +107,6 @@ namespace Exmet_login_page
         private void btnlogin1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("You are in Login Page:-");
-
-        }
-
-        private void txtEmail_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
